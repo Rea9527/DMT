@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+	div#content
+
+		include ./nav.jade
+
+		div#main-content(ng-view)
+
+		include ./audio.jade
+		

@@ -1,0 +1,73 @@
+body {
+  padding: 0px;
+  margin: 0;
+  font: 14px "Roboto", sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+p {
+	color: rgba(0,0,0,0.71);
+	padding: 0;
+}
+
+hr {
+	border-top: 3px solid grey;
+}
+
+figure {
+	text-align: center;
+}
+
+.img-400 {
+	max-width: 400px;
+}
+
+.img-600 {
+	max-width: 600px;
+}
+
+.img-700 {
+	max-width: 700px;
+}
+
+.bg-red {
+	background-color: red;
+}
+
+.bg-orange {
+	background-color: orange;
+}
+
+.bg-blue {
+	background-color: blue;
+}
+
+.bg-pink {
+	background-color: #EE6E73 !important;
+}
+
+.caption {
+	font-size: 1.25rem;
+	font-weight: 300;
+	margin-bottom: 30px;
+	text-align: left;
+	text-indent: 2em;
+}
+
+.sub-title {
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: left;
+}
+
+.display-none {
+	display: none;
+}

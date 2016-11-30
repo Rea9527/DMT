@@ -1,0 +1,24 @@
+#audio-container
+	#bottom-positioner
+		#button
+			#button-container
+				ul
+					li#play-btn(title="播放")
+						svg.svg-icon#play-svg(style="width:24px;height:24px" viewBox="0 0 24 24")
+							path(fill="#FFFFFF" d="M8,5.14V19.14L19,12.14L8,5.14Z")
+						svg.svg-icon.display-none#pause-svg(style="width:24px;height:24px" viewBox="0 0 24 24")
+							path(fill="#FFFFFF" d="M14,19H18V5H14M6,19H10V5H6V19Z")
+
+					li#previous-btn(title="上一首")
+						svg.svg-icon(style="width:24px;height:24px" viewBox="0 0 24 24")
+							path(fill="#FFFFFF" d="M6,18V6H8V18H6M9.5,12L18,6V18L9.5,12Z")
+
+					li#next-btn(title="下一首")
+						svg.svg-icon(style="width:24px;height:24px" viewBox="0 0 24 24")
+							path(fill="#FFFFFF" d="M16,18H18V6H16M6,18L14.5,12L6,6V18Z")
+			#apb
+				.apb-icon
+					svg.svg-icon(style="width:24px;height:24px" viewBox="0 0 24 24")
+						path(fill="#FFFFFF" d="M12,3V12.26C11.5,12.09 11,12 10.5,12C8,12 6,14 6,16.5C6,19 8,21 10.5,21C13,21 15,19 15,16.5V6H19V3H12Z")
+
+audio#myAudio(src="/media/MakeYouFeelMyLove.mp3" controls)

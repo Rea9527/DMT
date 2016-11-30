@@ -1,7 +1,17 @@
 doctype html
-html
+html(ng-app="DMT")
   head
     title= title
+    //- link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    link(rel='stylesheet', href='/materialize/css/materialize.css')
+    link(rel='stylesheet', href='/stylesheets/basics.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/audio.css')
   body
     block content
+
+    script(src="/lib/angular/angular.js")
+    script(src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js")
+    script(src="/materialize/js/materialize.js")
+    script(src="/javascripts/handle.js")
+    script(src="/javascripts/dmt.module.js")

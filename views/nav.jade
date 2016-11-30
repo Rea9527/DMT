@@ -1,0 +1,18 @@
+include ./templates.jade
+
+ul#slide-out.side-nav.fixed
+	li.logoView
+		img.logo(src="/images/teapot.png")
+	+nav-widget("/page/overview", "概览")
+	+nav-widget("/page/basics", "技术基础")
+	+nav-widget("/page/application", "应用领域")
+	+nav-widget("/page/category", "渲染类别")
+	+nav-widget("/page/movieRendering", "电影渲染")
+	+nav-widget("/page/gameRendering", "游戏渲染")
+	+nav-widget("/page/artistRendering", "艺术化渲染")
+	+nav-widget("/page/personalView", "个人看法")
+	+nav-widget("/page/software", "相关软件")
+	+nav-widget("/page/about", "关于")
+
+//- a.button-collapse.btn-floating.nav-btn(href="#", data-activates="slide-out")
+//- 	i.material-icons menu

@@ -1,0 +1,12 @@
+include ../header.jade
+div.detail-content#gameRendering
+	p.caption 关于游戏渲染，我们可以先看一个游戏图形渲染工作原理相关的视频（How Rendering Graphics Works in Games!）
+	video.intro-video(controls)
+		source(src="/media/gameRendering.mp4" type="video/mp4")
+	hr
+	p.caption 与电影渲染不同，游戏渲染属于实时渲染类型。<strong>实时渲染</strong>，其本质就是图形数据的实时计算和输出。它通过在计算机上快速地创建或合成图像，以便用户与虚拟环境交互。图像显示的速率用帧每秒（帧/秒）或赫兹两种单位来测量。而影响图像显示速率的主要因素就是硬件（GPU）。所以我们玩游戏时，最主要的硬件就是显卡，显卡决定了你的游戏性，特别是大型游戏。玩游戏，首先要求的是渲染速度，然后才是渲染的画质。
+	div.imgBox
+		img(src="/images/lol.png")
+		img(src="/images/app_2.jpg")
+	figure 英雄联盟截图（左）和看门狗截图（右）
+	hr
