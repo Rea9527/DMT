@@ -6,6 +6,7 @@ div.detail-content#artistRendering
 	hr
 	p.caption 艺术化渲染是对视觉艺术风格在渲染上的应用。艺术化渲染是属于非真实感渲染风格的，重点不是光和阴影的真实再现，而是其艺术性的表现。
 	p.caption 关于艺术化渲染，有种基于分割的艺术化渲染，将3D场景渲染为2D图像片段的集合。
+	p.caption 该方法首先计算3D场景图每个像素点的颜色、深度和法向等，然后再根据这些计算结果以及一种谱聚类算法将该3D图进行分割。分割后，就可以对每个不同的有各自特点的块进行艺术化渲染。参考<a href="http://www.dgp.toronto.edu/~alexk/segegsr.pdf">Segmentation-Based 3D Artistic Rendering</a>
 	img.img-700(src="/images/artist_2.jpg")
 	figure 基于分割的艺术化渲染
 	hr

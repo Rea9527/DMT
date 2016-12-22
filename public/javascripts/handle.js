@@ -7,8 +7,10 @@ window.onload = function() {
 			var t = document.documentElement.scrollTop || document.body.scrollTop;
 			if (t > 50) {
 				$('.header').addClass('header-scroll');
+				$('.header h4').addClass('h4-scroll');
 			} else {
 				$('.header').removeClass('header-scroll');
+				$('.header h4').removeClass('h4-scroll');
 			}
 		}
 	}
